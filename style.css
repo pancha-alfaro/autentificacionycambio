@@ -1,0 +1,286 @@
+body {
+    background-image: url(./assets/teahub.io-wallpaper-blau-2375717.jpg);
+    background-size: cover;
+}
+
+.banner {
+  background-image: url(./assets/thisisit.png);
+  background-size: cover;
+  max-width: 90%;
+  height: 180px;
+  padding: 10%;
+
+}
+
+footer {
+  background-color: rgb(39, 86, 128, .5);
+  color: white;
+  text-align: center;
+  padding: 20px 100px;
+}
+
+
+@media (max-width: 530px) {
+  .banner {
+    margin: 10px;
+  }
+  .banner h1 {
+    width: 80vw;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 170px;
+    background-color: rgb(39, 86, 128, .5);
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+  }
+
+  .biografia p {
+    background-color: rgb(235, 245, 245); 
+    margin: 10px;
+    color: #1f204a;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro {
+    margin: 10px;
+    background-color: rgb(39, 86, 128);
+    padding: 1.5%;
+  }
+  
+  .libro h2 {
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+
+    
+  }
+  .libro p {
+    margin: 7%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro img {
+    width: 9rem;
+    margin: 5%;
+    float: right;
+    margin-top: 0%;
+  }
+  .banner {
+    margin: 10px;
+  }
+  .banner h1 {
+    width: 80vw;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 170px;
+    background-color: rgb(39, 86, 128, .5);
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+  }
+
+  .biografia p {
+    background-color: rgb(235, 245, 245); 
+    margin: 10px;
+    color: #1f204a;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro {
+    margin: 10px;
+    background-color: rgb(39, 86, 128);
+    padding: 1.5%;
+  }
+  
+  .libro h2 {
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+
+    
+  }
+  .libro p {
+    margin: 7%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro img {
+    width: 9rem;
+    margin: 5%;
+    float: right;
+    margin-top: 0%;
+  }
+
+}
+
+@media (min-width:530px) and (max-width:700px) {
+  .banner {
+    margin: 10px;
+  }
+  .banner h1 {
+    width: 80vw;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 170px;
+    background-color: rgb(39, 86, 128, .5);
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+  }
+
+  .biografia p {
+    background-color: rgb(235, 245, 245); 
+    margin: 10px;
+    color: #1f204a;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro {
+    margin: 10px;
+    background-color: rgb(39, 86, 128);
+    padding: 1.5%;
+  }
+  
+  .libro h2 {
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+
+    
+  }
+  .libro p {
+    margin: 7%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro img {
+    width: 6rem;
+    margin: 5%;
+    float: right;
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 700px) and (max-width:920px) {
+  .banner {
+    margin: 10px;
+  }
+  .banner h1 {
+    width: 80vw;
+    font-size: 1.6rem;
+    text-align: right;
+    margin-top: 170px;
+    background-color: rgb(39, 86, 128, .5);
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+  }
+
+  .biografia p {
+    background-color: rgb(235, 245, 245); 
+    margin: 10px;
+    color: #1f204a;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .LibrosSection {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .libro {
+    width: 300px;
+    margin: 10px;
+    background-color: rgb(39, 86, 128);
+    padding: 1.5%;
+  }
+  
+  .libro h2 {
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+
+    
+  }
+  .libro p {
+    margin: 7%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro img {
+    width: 9rem;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 0%;
+  }
+}
+
+@media (min-width:920px) {
+  .banner {
+    margin: 10px;
+  }
+  .banner h1 {
+    width: 80vw;
+    font-size: 4rem;
+    text-align: right;
+    margin-top: 170px;
+    color: rgb(39, 86, 128);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+  }
+
+  .biografia p {
+    background-color: rgb(235, 245, 245); 
+    margin: 30px;
+    color: #1f204a;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .LibrosSection {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  .libro {
+    width: 300px;
+    margin: 10px;
+    background-color: rgb(39, 86, 128);
+    padding: 1.5%;
+  }
+  
+  .libro h2 {
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+
+    
+  }
+  .libro p {
+    margin: 7%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .libro img {
+    width: 9rem;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 0%;
+  }
+}
