@@ -1,13 +1,15 @@
-let password = "abcabc";
+function checkpass() {
+    var correctuser = "Francisca123";
+    var pass = "abcabc";
+    var user = prompt("Ingresa tu Usuario");
+    var password = prompt("Ingresa tu contraseña");
 
-function passwordCheck (pass) {
 
-    if (password==pass) {
-        alert ("Contraseña correcta!")
+    if (password==pass && user==correctuser) {
+        alert ("Credenciales correcta!")
         window.location.href = "index.html";
         } else {
-            alert ("CONTRASEÑA INCORRECTA")
+        alert ("CONTRASEÑA INCORRECTA")
         }
 }
 
-passwordCheck(prompt("Ingrese contraseña"));

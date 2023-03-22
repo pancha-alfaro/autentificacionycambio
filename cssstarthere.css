@@ -1,0 +1,12 @@
+body {
+    background-image: url(./assets/backgroundblurry.png);
+}
+
+.cuadrado {
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    text-align: center;
+    margin: 20%;
+
+
+}
